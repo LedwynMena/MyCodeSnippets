@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Sabio.Models.Requests.Email
+namespace Models.Requests.Email
 {
     public class EmailAddRequest
     {
