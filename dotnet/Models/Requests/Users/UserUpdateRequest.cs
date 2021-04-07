@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Sabio.Models.Requests.Users
+namespace Models.Requests.Users
 {
     public class UserUpdateRequest
     {
