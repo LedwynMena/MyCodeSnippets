@@ -17,7 +17,7 @@ import { NavLink as RouterLink } from 'react-router-dom';
 import { RecoverPasswordSchema } from "../../schemas/recoverPasswordSchema";
 import { Formik, Form } from "formik";
 import toast from "toastr";
-import debug from "sabio-debug";
+import debug from "debug";
 
 const _logger = debug.extend("RecoverPassword");
 
