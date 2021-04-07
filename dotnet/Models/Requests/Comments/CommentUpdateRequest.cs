@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Sabio.Models.Requests.Comments
+namespace Models.Requests.Comments
 {
     public class CommentUpdateRequest : CommentAddRequest, IModelIdentifier
     {
