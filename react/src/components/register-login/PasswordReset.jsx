@@ -16,7 +16,7 @@ import { NavLink as RouterLink } from 'react-router-dom';
 import { ResetPasswordSchema } from "../../schemas/resetPasswordSchema";
 import { Formik, Form } from "formik";
 import toast from "toastr";
-import debug from "sabio-debug";
+import debug from "debug";
 
 const _logger = debug.extend("PasswordReset");
 
