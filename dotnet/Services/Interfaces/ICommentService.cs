@@ -1,8 +1,5 @@
-﻿using Sabio.Models.Domain;
-using Sabio.Models.Requests.Comments;
-using System.Collections.Generic;
 
-namespace Sabio.Services
+namespace Services
 {
     public interface ICommentService
     {
