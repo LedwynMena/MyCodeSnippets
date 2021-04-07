@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import debug from "sabio-debug";
+import debug from "debug";
 import PropTypes from "prop-types";
 import CommentSingle from "./CommentSingle";
 import * as commentService from "../../services/commentService";
