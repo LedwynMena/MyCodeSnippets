@@ -1,14 +1,5 @@
-﻿using Sabio.Data;
-using Sabio.Data.Providers;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests.Comments;
-using Sabio.Services.Interfaces;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
 
-namespace Sabio.Services
+namespace Services
 {
     public class CommentService : ICommentService
     {
