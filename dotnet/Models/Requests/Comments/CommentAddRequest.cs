@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Sabio.Models.Requests.Comments
+namespace Models.Requests.Comments
 {
     public class CommentAddRequest
     {
