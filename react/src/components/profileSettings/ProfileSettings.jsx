@@ -16,7 +16,7 @@ TextField,
 import { NavLink } from "react-router-dom";
 import FileUpload from "../FileUpload";
 import toast from "toastr";
-import debug from "sabio-debug";
+import debug from "debug";
 
 const _logger = debug.extend("ProfileSettings");
 
