@@ -1,14 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests.Comments;
-using Sabio.Services;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
-using System;
-using System.Collections.Generic;
 
-namespace Sabio.Web.Api.Controllers
+namespace Web.Api.Controllers
 {
     [Route("api/comments")]
     [ApiController]
@@ -156,8 +147,6 @@ namespace Sabio.Web.Api.Controllers
 
             return StatusCode(code, response);
         }
-
-
 
     }
 }
