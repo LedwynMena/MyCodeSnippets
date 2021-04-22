@@ -30,6 +30,7 @@ class Comments extends React.Component {
       open: false,
       replyParentId: 0,
       commentId: 0,
+      mappedComments: [],
     };
   }
 
@@ -62,7 +63,6 @@ class Comments extends React.Component {
   handleSubmit = (values, { resetForm }) => {
     const newComment = values; 
     newComment.createdBy =  this.props.currentUser;
-    newComment.replies = []
 
     if(this.state.commentId > 0)
     {
@@ -72,6 +72,7 @@ class Comments extends React.Component {
       .then(this.onEditCommentSuccess(newComment))
       .catch(this.onEditCommentError)
     } else {
+    newComment.replies = []
     commentService
       .addComment(newComment)
       .then((response) => {
